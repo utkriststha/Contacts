@@ -1,0 +1,71 @@
+.contactDisplay {
+  width: 100%;
+  overflow: scroll;
+}
+
+.contactDisplay h2 {
+  font-size: 36px;
+  margin: 18px;
+}
+
+.contactDisplay table {
+  width: 98%;
+  margin: auto;
+  padding: 10px;
+  border-collapse: collapse;
+}
+.contactDisplay table,
+td,
+th {
+  border: 1px solid rgb(195, 195, 195);
+  padding: 10px;
+  text-align: left;
+}
+
+.contactDisplay table thead tr {
+  background-color: #3db4a6;
+  color: white;
+}
+.contactDisplay table tr .address div {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contactDisplay table tr .address .locate {
+  color: rgb(222, 0, 0);
+  font-size: 30px;
+}
+.contactDisplay table tr .address .locate:hover {
+  color: red;
+  cursor: pointer;
+}
+.contactDisplay table tr td div .companyName {
+  font-size: 22px;
+  font-weight: 700;
+}
+.contactDisplay table tr td div .companyCP {
+  font-size: 15px;
+}
+.contactDisplay table tr td div .companyBS {
+  font-size: 13px;
+  color: gray;
+}
+
+.contactDisplay table thead tr:hover {
+  background-color: #329286;
+}
+
+.contactDisplay table tr:hover {
+  background-color: #e8e8e8;
+}
+.contactDisplay .error {
+  width: 98%;
+  margin: auto;
+  padding: 30px 10px;
+  text-align: center;
+  background-color: rgba(255, 83, 83, 0.649);
+  font-weight: 500;
+  font-size: 25px;
+  color: white;
+}

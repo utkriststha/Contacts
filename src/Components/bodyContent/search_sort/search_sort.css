@@ -1,0 +1,55 @@
+.searchSort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 25px 20px;
+}
+.searchSort .searchBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  width: 600px;
+  border: 2px solid gray;
+}
+
+.searchSort .searchBar .searchInput {
+  width: 80%;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: 300;
+  outline: 0;
+  padding: 0 2px;
+  appearance: none;
+}
+
+.searchSort .searchBar .closeBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin: 0 10px;
+  color: rgb(72, 72, 72);
+}
+
+.searchSort .searchBa .searchInput::placeholder {
+  color: rgb(73, 73, 73);
+}
+
+.searchSort .searchBa .searchInput:placeholder-shown {
+  border-radius: 50px;
+  width: calc(100% - 40px);
+}
+
+.searchSort .selectMenu {
+  width: auto;
+  font-size: 18px;
+  padding: 0 3px;
+  border-color: rgb(179, 179, 179);
+}
+
+.searchSort .sortBy label {
+  font: 35px;
+  margin: auto 5px;
+}
