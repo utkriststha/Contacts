@@ -18,20 +18,20 @@ function ContactDisplay({ contactList }) {
     //Return function to return table row with contact data
     return (
       <tr key={contact.id}>
-        <td>{contact.id} </td>
-        <td>{contact.name} </td>
-        <td>{contact.username}</td>
-        <td className="emailId">
+        <td data-label="ID">{contact.id} </td>
+        <td data-label="Full Name">{contact.name} </td>
+        <td data-label="Username">{contact.username}</td>
+        <td data-label="Email ID" className="emailId">
           <a href="mailto: {contact.email}"> {contact.email}</a>
         </td>
-        <td>{contact.phone}</td>
-        <td className="website">
+        <td data-label="Phone No.">{contact.phone}</td>
+        <td data-label="Website" className="website">
           {" "}
           <a href="{contact.website}" target="_blank">
             {contact.website}
           </a>
         </td>
-        <td className="address">
+        <td data-label="Address" className="address">
           <div>
             <div>
               {contact.address.suite}, {contact.address.street},{" "}
@@ -49,8 +49,8 @@ function ContactDisplay({ contactList }) {
             </div>
           </div>
         </td>
-        <td>{contact.address.zipcode}</td>
-        <td>
+        <td data-label="ZIP">{contact.address.zipcode}</td>
+        <td data-label="Company">
           <div>
             <p className="companyName">{contact.company.name}</p>
             <p className="companyCP">{contact.company.catchPhrase}</p>

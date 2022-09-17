@@ -53,3 +53,45 @@
   font: 35px;
   margin: auto 5px;
 }
+
+/* Responsive */
+@media screen and (max-width: 850px) {
+  .searchSort .searchBar {
+    width: 100%;
+  }
+  .searchSort div:nth-of-type(1) {
+    width: 70%;
+  }
+
+  .searchSort div:nth-of-type(2) {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .searchSort {
+    flex-direction: column;
+  }
+  .searchSort div:nth-of-type(1) {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .searchSort div:nth-of-type(2) {
+    width: 90%;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 285px) {
+  .searchSort {
+    margin: auto 5px;
+  }
+  .searchSort div:nth-of-type(1) {
+    width: 100%;
+  }
+
+  .searchSort div:nth-of-type(2) {
+    width: 100%;
+  }
+}

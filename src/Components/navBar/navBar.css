@@ -32,3 +32,17 @@
   font-size: 22px;
   margin: 3px 10px;
 }
+
+/* Responsive */
+
+@media screen and (max-width: 430px) {
+  .navBar .profile h3 {
+    display: none;
+  }
+
+  @media screen and (max-width: 340px) {
+    .navBar h2 span {
+      display: none;
+    }
+  }
+}

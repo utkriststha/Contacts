@@ -33,6 +33,7 @@ th {
   align-items: center;
 }
 .contactDisplay table tr .address .locate {
+  margin: 5px;
   color: rgb(222, 0, 0);
   font-size: 30px;
 }
@@ -68,4 +69,47 @@ th {
   font-weight: 500;
   font-size: 25px;
   color: white;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 850px) {
+  .contactDisplay table thead {
+    display: none;
+  }
+
+  .contactDisplay table,
+  .contactDisplay table tbody,
+  .contactDisplay table tr,
+  .contactDisplay table td {
+    display: block;
+    width: 100%;
+  }
+  .contactDisplay table tr {
+    margin-bottom: 30px;
+  }
+  .contactDisplay table td {
+    text-align: right;
+    padding-left: 34%;
+    text-align: right;
+    position: relative;
+  }
+  .contactDisplay table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 30%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+  .contactDisplay table tr .address div {
+    justify-content: right;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .contactDisplay table td {
+    overflow: scroll;
+  }
 }
