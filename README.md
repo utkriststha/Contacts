@@ -1,7 +1,7 @@
 
 # Contacts
 
-This program gets user details from an [API](https://jsonplaceholder.typicode.com/users) and lets the user search for the contact through the categories of search options and sorting options with a visually apealing responsive application.
+This program gets user details from an [API](https://jsonplaceholder.typicode.com/users). It lets the user search for the contact through the categories of search options and sorting options with a visually appealing responsive application.
 
 
 ## Features
@@ -22,6 +22,20 @@ This program gets user details from an [API](https://jsonplaceholder.typicode.co
 - Z-A (Full Name)
 - First Added
 - Last Added
+
+## Display Content
+
+- **Total Contacts:** total number of contact in the database
+
+- **ID:**  User ID number
+- **Full Name:** Full Name of the contact
+- **Username:** Username of the contact
+- **Email ID:** Contact's Email address with link
+- **Phone No.:** International contact number
+- **Website:** Contact's website with link 
+- **Address:** Address of the contact with (suit, street, city and GEO location linked to google map)
+- **ZIP:** Address zip code
+- **Company:** Company name with the company details 
 
 ## Source
 
