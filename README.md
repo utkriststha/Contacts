@@ -1,70 +1,83 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Contacts
 
-## Available Scripts
+This program gets user details from an [API](https://jsonplaceholder.typicode.com/users) and lets the user search for the contact through the categories of search options and sorting options with a visually apealing responsive application.
 
-In the project directory, you can run:
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+####  Search Contact By:
+- ID
+- Full Name
+- Username
+- Email Id
+- Phone No
+- Website
+- Address
+- ZIP
+- Company
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Sort Contact By:
+- A-Z (Full Name)
+- Z-A (Full Name)
+- First Added
+- Last Added
 
-### `npm test`
+## Source
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screen Shot 2022-09-17 at 10 24 50 am](https://user-images.githubusercontent.com/87806021/190832977-298eef52-df17-478c-ac7d-a2ea4724d02b.png)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## API Reference
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### From
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+ https://jsonplaceholder.typicode.com
+```
 
-### `npm run eject`
+#### Get user details
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+  GET /users
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠 Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Programming language:** HTML, CSS, JavaScript, React 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Other:** React Hooks [ useState(), useEffect() ] , axios
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Other Imports
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```javascript
+import { IoIosCloseCircleOutline } from "react-icons/io";
+import { IoLocationSharp } from "react-icons/io5";
+import axios from "axios";
 
-### Code Splitting
+<IoIosCloseCircleOutline />
+<IoLocationSharp />
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Run Application
 
-### Analyzing the Bundle Size
+By source code
+```bash
+  cd contacts
+  npm start
+```
+OR, Webpage
+https://utkriststha.github.io/Contacts/
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Support
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+For support, email utkrist.shrestha12@gmail.com
 
-### Advanced Configuration
+## 🔗 Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![sourcecode](https://img.shields.io/badge/source_code-FF000?style=for-the-badge&logo=java&logoColor=white)](https://github.com/utkriststha/Contacts)
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://utkriststha.dev/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/utkriststha/)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/utkriststha/)
